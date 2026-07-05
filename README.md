@@ -29,16 +29,28 @@ Raw data is rarely ready for analysis. The purpose of this project was to transf
 
 ![Power Query](power-query.png)
 
-**Techniques Applied**
-- Merge Columns
-- Transpose Table
-- Fill Down
-- Remove Unnecessary Columns
-- Promote Headers
-- Unpivot Columns
-- Split Columns by Delimiter
-- Rename Columns
-- Change Data Types
+## 📚 How to Recreate This Transformation
+
+1. Download the Excel file.
+2. Open Power BI Desktop.
+3. Click **Get Data → Excel Workbook**.
+4. Select the dataset and click **Transform Data**.
+5. In Power Query:
+   - Merge required columns.
+   - Transpose the table.
+   - Use **Fill Down** to populate missing values.
+   - Remove unnecessary columns.
+   - Promote the first row as headers.
+   - Unpivot columns to normalize the data.
+   - Split columns using the appropriate delimiter.
+   - Rename columns for clarity.
+   - Verify and update data types.
+6. Review the transformed dataset.
+7. Click **Close & Apply**.
+8. Save the file using "Save As"
+
+### Result
+A clean, structured, and analysis-ready dataset suitable for reporting and dashboard creation.
 
 These transformations converted the dataset into a structured format suitable for analysis.
 
